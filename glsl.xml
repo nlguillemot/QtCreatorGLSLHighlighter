@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 <!-- the version of this file shows the largest supported OpenGL version, second digit is the minor patch level (Y.XP = supports GLSL X.Y0 with patchlevel P -->
-<language name="GLSL" section="Sources" extensions="*.glsl;*.vsh;*.vert;*.tcsh;*.tcs;*.tesh;*.tes;*.gsh;*.geo;*.geom;*.fsh;*.frag;*.csh;*.cs" mimetype="text/x-glslsrc" version="4.40" kateversion="2.4" author="Robert Menzel (mail@renderingpipeline.com)" license="LGPL"> 
+<language name="GLSL" section="Sources" extensions="*.glsl;*.vsh;*.vert;*.tcsh;*.tcs;*.tesh;*.tes;*.gsh;*.geo;*.geom;*.fsh;*.frag;*.csh;*.cs" mimetype="text/x-glslsrc" version="4.40" kateversion="2.4" author="Robert Menzel (mail@renderingpipeline.com), Nicolas Guillemot (nlguillemot@gmail.com)" license="LGPL"> 
 	<highlighting>
 	
 		<!-- ####################################################################################################### keywords -->
@@ -978,7 +978,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
-				
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1039,7 +1040,6 @@
 				<keyword attribute="Reserved"       String="buildinvariables410"    context="#stay" />
 				<keyword attribute="Reserved"       String="buildinvariables430"    context="#stay" />
 				
-				
 				<keyword attribute="Buildconstants"         String="buildinconstants100ES"    context="#stay" />
 				<keyword attribute="Reserved"         String="buildinconstants110"    context="#stay" />
 				<keyword attribute="Reserved"         String="buildinconstants130"    context="#stay" />
@@ -1068,6 +1068,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1138,6 +1140,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1208,6 +1212,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1278,6 +1284,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1348,6 +1356,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1424,6 +1434,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1494,6 +1506,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1564,6 +1578,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1634,6 +1650,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1704,6 +1722,8 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
@@ -1774,11 +1794,11 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
-				
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
-				
 				<!-- preprocessor -->
 				<DetectChar attribute="Preprocessor" context="Preprocessor" char="#" firstNonSpace="true"/>
 			</context>
@@ -1846,11 +1866,11 @@
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
-				
+				<!-- identifiers -->
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
 				<Detect2Chars attribute="Comment" context="CommentMultiLine" char="/" char1="*" beginRegion="Comment"/>
-				
 				<!-- preprocessor -->
 				<DetectChar attribute="Preprocessor" context="Preprocessor" char="#" firstNonSpace="true"/>
 			</context>
@@ -1873,7 +1893,10 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout330" attribute="Normaltext" lineEndContext="#stay">
@@ -1886,7 +1909,10 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout400" attribute="Normaltext" lineEndContext="#stay">
@@ -1899,7 +1925,10 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout420" attribute="Normaltext" lineEndContext="#stay">
@@ -1912,7 +1941,10 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout430" attribute="Normaltext" lineEndContext="#stay">
@@ -1925,7 +1957,10 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout440" attribute="Normaltext" lineEndContext="#stay">
@@ -1938,7 +1973,10 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
 			<context name="Layout300ES" attribute="Normaltext" lineEndContext="#stay">
@@ -1952,7 +1990,10 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
+				<HlCOct attribute="Octal"   context="#stay" />
+				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
+				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			
 			<!-- end of comments -->
@@ -1985,6 +2026,8 @@
 			<itemData name="Octal"          defStyleNum="dsBaseN"/>
 			<itemData name="Hex"            defStyleNum="dsBaseN"/>
 			<itemData name="Decimal"        defStyleNum="dsDecVal"/>
+			
+			<itemData name="Identifier"     defStyleNum="dsNormal"/>
 			
 			<itemData name="Preprocessor"   defStyleNum="dsDataType" bold="1"/>
 			<itemData name="Comment"        defStyleNum="dsComment"/>

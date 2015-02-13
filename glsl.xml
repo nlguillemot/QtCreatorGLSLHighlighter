@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 <!-- the version of this file shows the largest supported OpenGL version, second digit is the minor patch level (Y.XP = supports GLSL X.Y0 with patchlevel P -->
-<language name="GLSL" section="Sources" extensions="*.glsl;*.vsh;*.vert;*.tcsh;*.tcs;*.tesh;*.tes;*.gsh;*.geo;*.geom;*.fsh;*.frag;*.csh;*.cs" mimetype="text/x-glslsrc" version="4.40" kateversion="2.4" author="Robert Menzel (mail@renderingpipeline.com), Nicolas Guillemot (nlguillemot@gmail.com)" license="LGPL"> 
+<language name="GLSL" section="Sources" extensions="*.glsl;*.vsh;*.vert;*.tcsh;*.tcs;*.tesh;*.tes;*.gsh;*.geo;*.geom;*.fsh;*.frag;*.csh;*.cs" mimetype="text/x-glslsrc" version="4.40" kateversion="2.4" author="Robert Menzel (mail@renderingpipeline.com)" license="LGPL"> 
 	<highlighting>
 	
 		<!-- ####################################################################################################### keywords -->
@@ -974,7 +974,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1064,7 +1066,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1136,7 +1140,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1208,7 +1214,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1280,7 +1288,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1352,7 +1362,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1430,7 +1442,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1502,7 +1516,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1574,7 +1590,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1646,7 +1664,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1718,7 +1738,9 @@
 				<keyword attribute="Reserved"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1790,7 +1812,9 @@
 				<keyword attribute="Buildinfunctions"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />
@@ -1862,7 +1886,9 @@
 				<keyword attribute="Buildinfunctions"       String="buildinfunctions430"    context="#stay" />
 				
 				<!-- numbers -->
-				<Float  attribute="Float"   context="#stay" />
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
 				<HlCOct attribute="Octal"   context="#stay" />
 				<HlCHex attribute="Hex"     context="#stay" />
 				<Int    attribute="Decimal" context="#stay" />

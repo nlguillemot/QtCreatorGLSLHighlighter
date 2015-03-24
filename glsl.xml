@@ -360,6 +360,7 @@
 			<item>depth_greater</item>
 			<item>depth_less</item>
 			<item>depth_unchanged</item>
+			<item>early_fragment_tests</item>
 			<!-- Atomic Counter Layout Qualifiers, also: binding -->
 			<item>offset</item>
 			<item>binding</item>

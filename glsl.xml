@@ -978,9 +978,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1070,9 +1070,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1144,10 +1144,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
-				<!-- identifiers -->
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
 				<Detect2Chars attribute="Comment" context="CommentSingleLine" char="/" char1="/"/>
@@ -1218,9 +1217,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1292,9 +1291,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1366,9 +1365,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1446,9 +1445,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1520,9 +1519,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1594,9 +1593,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1668,9 +1667,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1742,9 +1741,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1816,9 +1815,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1890,9 +1889,9 @@
 				<Float attribute="Float" context="#stay">
 					<AnyChar String="fF" attribute="Float" context="#stay"/>
 				</Float>
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<!-- identifiers -->
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 				<!-- comments -->
@@ -1920,9 +1919,9 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -1936,9 +1935,9 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -1952,9 +1951,9 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -1968,9 +1967,9 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -1984,9 +1983,9 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -2000,9 +1999,9 @@
 				<keyword attribute="Keyword"         String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Keyword"         String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			<!-- layout declarations -->
@@ -2017,9 +2016,9 @@
 				<keyword attribute="Reserved"        String="layoutqualifier400"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier420"      context="#stay" />
 				<keyword attribute="Reserved"        String="layoutqualifier430"      context="#stay" />
-				<HlCOct attribute="Octal"   context="#stay" />
-				<HlCHex attribute="Hex"     context="#stay" />
-				<Int    attribute="Decimal" context="#stay" />
+				<HlCOct attribute="Octal" context="#stay"><AnyChar String="uU" attribute="Octal" context="#stay"/></HlCOct>
+				<HlCHex attribute="Hex"   context="#stay" ><AnyChar String="uU" attribute="Hex" context="#stay"/></HlCHex>
+				<Int    attribute="Decimal" context="#stay" ><StringDetect attribute="Decimal" context="#stay" String="U" insensitive="true"/></Int>
 				<DetectIdentifier attribute="Identifier" context="#stay" />
 			</context>
 			
